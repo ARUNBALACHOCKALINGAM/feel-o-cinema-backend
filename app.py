@@ -260,4 +260,4 @@ def get_watchlist_cover(name):
     return send_file(img_io, mimetype='image/jpeg')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,port=os.getenv("PORT"))
