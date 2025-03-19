@@ -8,3 +8,4 @@ datasets
 requests
 python-dotenv
 gunicorn
+datasets==3.4.1
