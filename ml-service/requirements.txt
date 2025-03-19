@@ -1,7 +1,10 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
 flask
-torch
+torch==2.1.0+cpu
 transformers
 pandas
 datasets
 requests
 python-dotenv
+gunicorn
