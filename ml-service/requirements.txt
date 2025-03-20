@@ -1,8 +1,4 @@
-# Use explicit Python 3.11 compatible versions
-torch==2.0.1 --index-url https://download.pytorch.org/whl/cpu
-transformers==4.30.2
+
 datasets==2.14.5
 flask==2.2.5
 gunicorn==21.2.0
-nltk==3.8.1
-protobuf==3.20.3
